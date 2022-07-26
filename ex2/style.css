@@ -48,4 +48,19 @@
     background-color: white;
 }
 
+@media (max-width:1336px){
+    .item{
+        flex-direction: column;
+        width: 350px;
+        height: 200px;
+        
+    }
+}
+
+@media (max-width:670px){
+    .item{
+        width: 300px;
+        margin: 15px; 
+    }
+}
 
